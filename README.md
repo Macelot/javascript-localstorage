@@ -11,7 +11,7 @@ O `localStorage` permite armazenar dados no navegador de forma **persistente** (
 Armazena um valor com uma chave:
 
 ```js
-localStorage.setItem('nome', 'João');
+localStorage.setItem('nome', 'Marcelo');
 ```
 
 ---
@@ -21,7 +21,7 @@ Recupera o valor associado à chave:
 
 ```js
 const nome = localStorage.getItem('nome');
-console.log(nome); // "João"
+console.log(nome); // "Marcelo"
 ```
 
 ---
